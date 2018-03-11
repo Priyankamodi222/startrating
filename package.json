@@ -1,0 +1,42 @@
+{
+  "name": "gbot",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GOKULNAIR94/gbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GOKULNAIR94/gbot/issues"
+  },
+  "homepage": "https://github.com/GOKULNAIR94/gbot#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bunyan": "^1.8.12",
+    "express": "^4.15.3",
+    "fast-csv": "^2.4.0",
+    "file-base64": "^1.0.0",
+    "json-query": "^2.2.2",
+    "mssql": "^4.1.0",
+<<<<<<< HEAD
+    "mysql": "^2.15.0",
+    "nodemailer": "^4.1.0",
+    "request": "^2.76.0",
+    "xmlhttprequest": "^1.8.0"
+=======
+    "nodemailer": "^4.1.0",
+    "request": "^2.76.0",
+    "soap": "^0.23.0",
+    "strong-soap": "^1.5.0",
+    "titlecase": "^1.1.2"
+>>>>>>> 425bdf0ee6560b35419d713ac24a8a4e5bafb72f
+  },
+  "devDependencies": {},
+  "description": ""
+}

@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>  
+<html>
+<head>
+
+<!-- <link href="/favicon.ico" rel="shortcut icon"> -->
+
+<link rel="stylesheet" type="text/css" href="Style.css">
+
+</head>
+
+<body ng-app="RatingTutorial" ng-controller="RatingCtrl">
+  
+    <h3 ng-init="getData()">Rating</h3>
+ <div ng-init="rating = star.rating + 1"></div>
+
+<div class="star-rating" star-rating rating-value="rating" data-max="6" on-rating-selected="rateFunction(rating)"></div></br>
+<input type="submit" value="submit" ng-click= "postData()"/>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+<script src="app/app-angular.js"></script>
+</body>
+
+
+</html
